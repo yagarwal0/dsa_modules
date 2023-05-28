@@ -1,0 +1,6 @@
+public static int find_max(int i, int j){
+        if(i>j){
+            return i;
+        }
+        return j;
+}
