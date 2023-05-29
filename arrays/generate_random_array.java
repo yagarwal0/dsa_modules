@@ -1,4 +1,4 @@
-public static int[] generate_random_array(int range, int max, int min, int n){
+public static int[] generate_random_array(int max, int min, int n){
         Random random = new Random();
         int temp_arr[] = new int[n];
         for(int i=0; i<n; i++){
